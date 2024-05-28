@@ -1,0 +1,97 @@
+body {
+    background: url('canteen-bg.jpg') no-repeat center center fixed; /* Tambahkan URL gambar latar belakang Anda di sini */
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang semi-transparan */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 0;
+    color: #d84315;
+}
+
+p {
+    color: #6d4c41;
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #d84315;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff7043;
+}
+
+.form-login {
+    height: 48px;
+    background: rgba(0, 0, 0, 0.05);
+    color: #000;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    margin: 1rem auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.form-login:focus {
+    outline: none;
+    background: #e6e6e6;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #d84315; 
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline; 
+}
+
+.toggle-link {
+    margin-top: 15px;
+    color: #d84315;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}
